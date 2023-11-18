@@ -1,10 +1,12 @@
 import React from 'react'
 import MainLayout from './layout'
+import Hero from '../components/Hero/Hero'
 
 const index = () => {
   return (
     <MainLayout>
-      <h1>Home page</h1>
+      <Hero />
+      <h1>gagda hiou</h1>
     </MainLayout>
   )
 }
