@@ -60,7 +60,7 @@ const Hero = () => {
             occasionally designing) exceptional websites, applications, and
             everything in between.
           </p>
-          <div className='flex flex-row justify-center md:justify-start'>
+          <div className='flex flex-row justify-center md:justify-start mt-10'>
             <button
               onClick={downloadResume}
               className='bg-[#0752cb] hover:bg-[#0a0ab9] text-white font-bold py-3 px-8 rounded-full mr-2'
