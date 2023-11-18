@@ -1,0 +1,16 @@
+.other-pro-img {
+    border-radius: 5px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.other-pro-img:hover img {
+    height: 100%;
+    object-fit: cover;
+    object-position: bottom center;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    transition-property: all;
+    width: 100%;
+}

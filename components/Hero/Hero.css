@@ -1,0 +1,14 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.text-gardient {
+    background: linear-gradient(to right, #E70FAA 0%, #00C0FD 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.font-color {
+    color: #42446E;
+}

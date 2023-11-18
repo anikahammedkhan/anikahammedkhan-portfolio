@@ -1,0 +1,66 @@
+/* styles/blog.css */
+
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,400;1,100&display=swap");
+
+.blog-content {
+  font-family: "Roboto", sans-serif;
+}
+
+.blog-content h1 {
+  font-size: 2.5em;
+  font-weight: 700;
+}
+
+.blog-content h2 {
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.blog-content h3 {
+  font-size: 1.75em;
+  font-weight: 700;
+}
+
+.blog-content h4 {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.blog-content h5 {
+  font-size: 1.25em;
+  font-weight: 700;
+}
+.blog-content p {
+  font-weight: 400;
+  line-height: 1.5em;
+  margin: 1em 0;
+}
+
+.blog-content ul {
+  list-style: disc;
+  margin-left: 2em;
+  list-style-type: circle;
+}
+
+.blog-content ol {
+  list-style: decimal;
+  margin-left: 2em;
+  list-style-type: decimal;
+}
+
+.blog-content li {
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.5em;
+  color: rgb(4, 122, 212);
+}
+
+.blog-content a {
+  color: #5199e6;
+  text-decoration: none;
+}
+
+.blog-content a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
