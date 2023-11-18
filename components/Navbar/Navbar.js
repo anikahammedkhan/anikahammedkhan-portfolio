@@ -63,7 +63,7 @@ const Navbar = () => {
             <Image
               src={Logo}
               alt='logo'
-              className='xl:w-[300px] lg:w-[200px] md:w-[250px] w-[150px]'
+              className='lg:w-[200px] md:w-[250px] w-[150px]'
             />
           </Link>
           <div className='flex-none lg:hidden'>
@@ -76,7 +76,7 @@ const Navbar = () => {
                 xmlns='http://www.w3.org/2000/svg'
                 fill='none'
                 viewBox='0 0 24 24'
-                className='inline-block w-6 h-6 stroke-current text-white'
+                className='inline-block w-6 h-6 stroke-current text-black'
               >
                 <path
                   strokeLinecap='round'
@@ -100,7 +100,7 @@ const Navbar = () => {
           aria-label='close sidebar'
           className='drawer-overlay'
         ></label>
-        <ul className='flex flex-col pt-10 w-[200px] min-h-full bg-[#002366] text-white font-semibold'>
+        <ul className='flex flex-col pt-10 w-[200px] min-h-full text-white font-semibold bg-gray-300'>
           <Link href='/'>
             <Image src={Logo} alt='logo' className='w-[180px] ps-10' />
           </Link>
