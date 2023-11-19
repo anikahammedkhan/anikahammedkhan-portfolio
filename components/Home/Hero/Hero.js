@@ -2,7 +2,7 @@ import React from 'react'
 import Typewriter from 'typewriter-effect'
 import OrbitComponent from './OrbitComponent'
 import { HiOutlineDownload } from 'react-icons/hi'
-import style from './../../styles/Hero.module.css'
+import style from './../../../styles/Hero.module.css'
 
 const Hero = () => {
   const downloadResume = () => {

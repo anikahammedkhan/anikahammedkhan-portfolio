@@ -3,6 +3,8 @@ import '../styles/blog.css'
 import 'aos/dist/aos.css'
 import '../components/Navbar/Navbar.css'
 import 'react-photo-view/dist/react-photo-view.css'
+import 'swiper/css'
+import 'swiper/css/navigation'
 
 import AOS from 'aos'
 import { useEffect } from 'react'

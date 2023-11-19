@@ -8,7 +8,7 @@ const nextConfig = {
     ]
   },
   images: {
-    domains: ['i.ibb.co'],
+    domains: ['i.ibb.co', 'source.unsplash.com'],
   },
 }
 

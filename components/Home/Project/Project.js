@@ -1,7 +1,7 @@
 import React from 'react'
 import { PhotoProvider, PhotoView } from 'react-photo-view'
 import { BsArrowRight } from 'react-icons/bs'
-import style from './../../styles/Project.module.css'
+import style from './../../../styles/Project.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -14,13 +14,14 @@ const Project = ({ project }) => {
       data-aos-anchor-placement='top-bottom'
       data-aos-duration='1500'
       class='aos-init aos-animate'
+      data-theme='light'
     >
       <figure className={`${style.otherProImg}`}>
         <PhotoProvider>
           <PhotoView src={picture}>
             <Image
               width={500}
-              height={900}
+              height={100}
               className='w-full'
               src={fullPicture}
               alt='Shoes'
