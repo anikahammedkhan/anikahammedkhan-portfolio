@@ -5,7 +5,7 @@ const Card = () => {
   return (
     <div className='my-6 shadow-lg hover:shadow-xl rounded-md w-2/3 mx-auto'>
       <div className='px-4 py-12 rounded-t-lg sm:px-8 md:px-12'>
-        <p className='relative px-6 py-1 text-lg italic text-center'>
+        <div className='relative px-6 py-1 text-lg italic text-center'>
           <div className='flex justify-between items-center'>
             <svg
               xmlns='http://www.w3.org/2000/svg'
@@ -35,7 +35,7 @@ const Card = () => {
             <path d='M280,185.143V416H496V16H457.6ZM464,384H312V198.857L464,54.1Z'></path>
             <path d='M232,16H193.6L16,185.143V416H232ZM200,384H48V198.857L200,54.1Z'></path>
           </svg>
-        </p>
+        </div>
       </div>
       <div className='flex items-center p-8 rounded-b-lg gap-2'>
         <Image
