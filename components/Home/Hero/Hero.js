@@ -1,21 +1,11 @@
 import React from 'react'
 import Typewriter from 'typewriter-effect'
 import OrbitComponent from './OrbitComponent'
-import { HiOutlineDownload } from 'react-icons/hi'
+import { MdOutlineArrowOutward } from 'react-icons/md'
 import style from './../../../styles/Hero.module.css'
+import Link from 'next/link'
 
 const Hero = () => {
-  const downloadResume = () => {
-    fetch('md-anik-ahammed-khan-resume.pdf').then((response) => {
-      response.blob().then((blob) => {
-        const fileURL = window.URL.createObjectURL(blob)
-        let alink = document.createElement('a')
-        alink.href = fileURL
-        alink.download = 'md-anik-ahammed-khan-resume.pdf'
-        alink.click()
-      })
-    })
-  }
   return (
     <div>
       <div
@@ -61,13 +51,13 @@ const Hero = () => {
             everything in between.
           </p>
           <div className='flex flex-row justify-center md:justify-start mt-10'>
-            <button
-              onClick={downloadResume}
+            <Link
+              href='/contact'
               className='bg-[#0752cb] hover:bg-[#0a0ab9] text-white font-bold py-3 px-8 rounded-full mr-2'
             >
-              Download Resume
-              <HiOutlineDownload className='inline-block ml-2 text-2xl' />
-            </button>
+              Contact Me
+              <MdOutlineArrowOutward className='inline-block ml-2 text-2xl' />
+            </Link>
           </div>
         </div>
         <div className='lg:w-1/2' data-aos='fade-left'>

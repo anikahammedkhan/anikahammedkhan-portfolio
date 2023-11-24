@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import { useState } from 'react'
-import Project from '../Home/Project/Project'
+import Project from './Project'
 
 const Projects = () => {
   // useEffect(() => {
@@ -199,14 +199,14 @@ const Projects = () => {
 
   const [projects, setProjects] = useState(demoData)
   return (
-    <div id='projects'>
-      <div
-        className='font-color text-center py-4 px-3'
-        data-aos='zoom-out-right'
-      >
-        <h1 className='text-3xl md:text-5xl font-bold py-4'>Projects</h1>
-        <p className='text-2xl md:text-3xl'>Things I’ve built so far</p>
+    <div className='px-10'>
+      <div className='flex justify-between items-center'>
+        <div className='text-[36px] font-bold'>Projects</div>
+        <div className='bg-[#0752cb] hover:bg-[#0a0ab9] text-white font-bold py-3 px-8 rounded-full mr-2'>
+          View All
+        </div>
       </div>
+      <p className='text-[20px] font-medium'>Things I&apos;have built so far</p>
       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8 justify-items-center items-center m-10'>
         {projects?.map((project) => (
           <Project project={project} key={project._id}></Project>

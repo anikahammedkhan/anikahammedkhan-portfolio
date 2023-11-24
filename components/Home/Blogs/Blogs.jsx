@@ -6,7 +6,7 @@ const Blogs = () => {
     <div className='px-10'>
       <div className='flex justify-between items-center'>
         <div className='text-[36px] font-bold'>Latest Blog Posts</div>
-        <div className='px-5 py-2 bg-blue-600 hover:bg-blue-700 text-white hover:shadow-lg'>
+        <div className='bg-[#0752cb] hover:bg-[#0a0ab9] text-white font-bold py-3 px-8 rounded-full mr-2'>
           View All
         </div>
       </div>
