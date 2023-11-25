@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.11.0",
     "@fontsource/ubuntu": "^5.0.8",
     "aos": "^3.0.0-beta.6",
     "lottie-react": "^2.4.0",
@@ -17,6 +18,8 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-floating-whatsapp": "^5.0.8",
+    "react-google-recaptcha": "^3.1.0",
+    "react-google-recaptcha-v3": "^1.10.1",
     "react-hot-toast": "^2.4.1",
     "react-icons": "^4.12.0",
     "react-photo-view": "^1.2.3",
@@ -30,6 +33,7 @@
   "devDependencies": {
     "@types/aos": "^3.0.7",
     "@types/file-saver": "^2.0.7",
+    "@types/react-google-recaptcha": "^2.1.8",
     "autoprefixer": "^10.0.1",
     "daisyui": "^4.4.2",
     "eslint": "^8",

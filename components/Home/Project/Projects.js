@@ -199,15 +199,15 @@ const Projects = () => {
 
   const [projects, setProjects] = useState(demoData)
   return (
-    <div className='px-10'>
+    <div className='px-10 mb-20'>
       <div className='flex justify-between items-center'>
-        <div className='text-[36px] font-bold'>Projects</div>
-        <div className='bg-[#0752cb] hover:bg-[#0a0ab9] text-white font-bold py-3 px-8 rounded-full mr-2'>
+        <div className='lg:text-[36px] text-[30px] font-bold'>Projects</div>
+        <div className='bg-[#0752cb] hover:bg-[#0a0ab9] text-white font-bold py-2 lg:py-3 px-4 lg:px-8 rounded-full mr-2'>
           View All
         </div>
       </div>
       <p className='text-[20px] font-medium'>Things I&apos;have built so far</p>
-      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8 justify-items-center items-center m-10'>
+      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8 justify-items-center items-center'>
         {projects?.map((project) => (
           <Project project={project} key={project._id}></Project>
         ))}

@@ -3,7 +3,7 @@ import React from 'react'
 import { FaStar } from 'react-icons/fa'
 const Card = () => {
   return (
-    <div className='my-6 shadow-lg hover:shadow-xl rounded-md w-2/3 mx-auto'>
+    <div className='my-6 shadow-lg hover:shadow-xl rounded-md mx-auto'>
       <div className='px-4 py-12 rounded-t-lg sm:px-8 md:px-12'>
         <div className='relative px-6 py-1 text-lg italic text-center'>
           <div className='flex justify-between items-center'>

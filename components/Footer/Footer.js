@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 const Footer = () => {
   return (
-    <div className='footer p-10 bg-base-200 text-base-content rounded-lg shadow-lg justify-items-center'>
+    <div className='footer p-10 bg-[#eeebeb] rounded-lg shadow-lg justify-items-center'>
       <div>
         <Image src={Logo} alt='' className='w-full h-12' />
         <p>
@@ -31,7 +31,7 @@ const Footer = () => {
             target='_blank'
             rel='noopener noreferrer'
           >
-            <FaLinkedin></FaLinkedin>
+            <FaLinkedin className='text-[#0077b5]'></FaLinkedin>
           </a>
           <a
             href='https://www.facebook.com/anikahammedkhan.99'
@@ -39,7 +39,7 @@ const Footer = () => {
             target='_blank'
             rel='noopener noreferrer'
           >
-            <FaFacebook></FaFacebook>
+            <FaFacebook className='text-[#3b5998]'></FaFacebook>
           </a>
         </div>
       </div>
