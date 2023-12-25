@@ -1,4 +1,5 @@
 const nextConfig = {
+  output: 'export',
   async rewrites() {
     return [
       {
@@ -9,6 +10,7 @@ const nextConfig = {
   },
   images: {
     domains: ['i.ibb.co', 'source.unsplash.com'],
+    unoptimized: true,
   },
   webpack: (config, { isServer }) => {
     if (!isServer) {

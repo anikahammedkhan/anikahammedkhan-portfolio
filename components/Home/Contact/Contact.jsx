@@ -60,6 +60,7 @@ const Contact = () => {
                     id='firstName'
                     className='block w-full px-4 py-3 bg-white border border-[#D0D5DD] rounded-md shadow-sm focus:border-[#a1a3a7]'
                     placeholder='First Name'
+                    required
                   />
                 </div>
                 <div className='w-1/2'>
@@ -70,6 +71,7 @@ const Contact = () => {
                     id='lastName'
                     className='block w-full px-4 py-3 bg-white border border-[#D0D5DD] rounded-md shadow-sm focus:border-[#a1a3a7]'
                     placeholder='Last Name'
+                    required
                   />
                 </div>
               </div>
@@ -81,6 +83,7 @@ const Contact = () => {
                   id='email'
                   className='block w-full px-4 py-3 bg-white border border-[#D0D5DD] rounded-md shadow-sm focus:border-[#a1a3a7]'
                   placeholder='Email'
+                  required
                 />
               </div>
               <div className='mb-[24px]'>
@@ -91,6 +94,7 @@ const Contact = () => {
                   id='phone'
                   className='block w-full px-4 py-3 bg-white border border-[#D0D5DD] rounded-md shadow-sm focus:border-[#a1a3a7]'
                   placeholder='Phone'
+                  required
                 />
               </div>
               <div className='mb-[24px]'>
@@ -101,6 +105,7 @@ const Contact = () => {
                   rows='4'
                   className='block w-full px-4 py-3 bg-white border border-[#D0D5DD] rounded-md shadow-sm focus:border-[#a1a3a7]'
                   placeholder='Message'
+                  required
                 ></textarea>
               </div>
               <ReCAPTCHA sitekey={recaptcha} onChange={onChange} />
