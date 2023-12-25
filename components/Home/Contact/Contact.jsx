@@ -49,6 +49,10 @@ const Contact = () => {
               <p className='text-[20px] text-[#475467]'>
                 I would love to here from you.
               </p>
+              <p className='text-[16px] text-[#475467]'>
+                Please Fill all the fields first then verify the Recaptcha to
+                send response. If having issue, reload the page and try again.
+              </p>
             </div>
             <form ref={form} onSubmit={sendEmail}>
               <div className='flex w-full gap-3 mb-[24px]'>
